@@ -10,7 +10,7 @@ import random
 import operator
 import matplotlib.pyplot
 import matplotlib.animation 
-import agentframework
+import Agentframework
 import requests
 import bs4
 
@@ -64,7 +64,7 @@ print(td_xs)
 for i in range(num_of_agents):
      y = int(td_ys[i].text)
      x = int(td_xs[i].text)
-     agents.append(agentframework.Agent(environment, agents, y, x))
+     agents.append(Agentframework.Agent(environment, agents, y, x))
 
 carry_on = True	
 	
