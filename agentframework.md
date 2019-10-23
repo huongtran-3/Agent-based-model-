@@ -1,7 +1,7 @@
 import random
 class Agent():
     def __init__ (self, environment, agents, y, x):
-        #pass
+        pass
 
           self._x=random.randint(0,299)
           self._y=random.randint(0,299)
