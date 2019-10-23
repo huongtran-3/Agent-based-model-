@@ -1,6 +1,6 @@
-GEOG5995 Assessment 1
+#GEOG5995 Assessment 1
 
-Model code:
+#Model code:
 
 import matplotlib
 matplotlib.use('TkAgg')
