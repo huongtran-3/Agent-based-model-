@@ -117,6 +117,8 @@ root.wm_title("Model")
 canvas = matplotlib.backends.backend_tkagg.FigureCanvasTkAgg(fig, master=root)
 canvas._tkcanvas.pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
 
+#animation
+
 def run():
     animation = matplotlib.animation.FuncAnimation(fig, update, frames=gen_function, repeat=False)
     canvas.show()
